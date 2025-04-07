@@ -1,0 +1,90 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font Settings */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f9f6f2;
+    color: #3b3a36;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #5f3e7a;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.sub-title {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+/* Main Section Styling */
+section.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #5f3e7a;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Styling for Buttons */
+a.btn {
+    background-color: #8a7a91;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+a.btn:hover {
+    background-color: #5f3e7a;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #5f3e7a;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Styling for the Name Highlight */
+.name {
+    color: #9c7a9f;
+    font-weight: bold;
+}
